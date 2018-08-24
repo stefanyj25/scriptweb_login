@@ -1,0 +1,141 @@
+/*Estilos Registro*/
+.formregistro{
+	display: flex;
+	flex-wrap: wrap;
+	display: block;
+	text-align: center;
+}
+.registrofondo{
+	background-image: url('../../public/images/artehacker.jpg');
+}
+.titulor{
+	color: #fff;
+	font-size: 35px;
+	padding-top: 10px;
+	text-align: center;
+}
+.tipouser{
+  display: inline-block;
+	border-radius: 8px;
+	width: auto;
+	padding: 10px 10px;
+	float: center;
+	margin: 15px 0 10px 0;
+}
+.conocimiento{
+  display: inline-block;
+	border-radius: 8px;
+	width: auto;
+	padding: 10px 10px;
+	float: center;
+	margin: 15px 0 10px 0;
+}
+
+.sex{
+	border-radius: 8px;
+	width: auto;
+	padding: 10px 10px;
+	margin: 1px 0 10px 0;
+}
+.formreg{
+	border-radius: 8px;
+	width: 25%;
+	padding: 12px 15px;
+	display: block;
+	margin: 1px 0 10px 0;
+}
+.divfecha{
+	margin: 0 0 10px 0;
+	width: auto;
+}
+.fecha{
+	border-radius: 8px;
+	width: auto;
+	padding: 7px 2px;
+}
+.text_fecha{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0 0 10px 16px;
+}
+.pais{
+	border-radius: 8px;
+	width: auto;
+	padding: 10px 10px;
+	margin: 1px 0 10px 0;
+}
+.tipodoc{
+	font-size: 12px;
+	border-radius: 8px;
+	width: auto;
+	padding: 10px 10px;
+	margin: 1px 1px 10px 0;
+	display: inline-block;
+}
+.numerodoc{
+	border-radius: 8px;
+	width: 14%;
+	padding: 12px 15px;
+	display: inline-block;
+}
+
+.botones{
+	margin: 1px 0 10px 0;
+}
+.botonreg{
+	width: auto;
+	margin: 4% 0 5% 0;
+	border-radius: 8px;
+	font-weight: bold;
+	padding: 16px 15px;
+	color: #fff;
+	background-color: #D05004;
+	border: 0;
+}
+
+/*Responsive registro*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+.selectipo{
+	margin: 15px 0 10px 0;
+}
+.formreg{
+	border-radius: 8px;
+	width: 30%;
+	padding: 12px 15px;
+	display: block;
+	margin: 1px 0 10px 0;
+}
+.tipodoc{
+	float: center;
+}
+.numerodoc{
+	width: 25%;
+	margin: 0 0 10px 0;
+	display:block;
+}
+
+}
+
+@media screen  and (max-width: 599px){
+.selectipo{
+	margin: 15px 0 10px 0;
+}
+.formreg{
+	width: 35%;
+	padding: 12px 15px;
+	display: block;
+	margin: 1px 0 10px 0;
+}
+.tipodoc{
+	float: center;
+}
+.numerodoc{
+	width: 25%;
+	margin: 0 0 10px 0;
+	display:block;
+}
+.botones{
+	float: center;
+}
+}
